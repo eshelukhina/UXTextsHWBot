@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  hsetewxtsragbot:
+  kotobototextoragbot:
     build: .
-    container_name: hsetewxtsragbot
+    container_name: kotobototextoragbot
     env_file:
       - .env
-    restart: unless-stopped  # Контейнер будет автоматически перезапускаться, если он остановится
+    restart: unless-stopped 
